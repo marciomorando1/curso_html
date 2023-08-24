@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head é a configuracao da pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Body é aonde fica tudo que aparece na pagina-->
+    <h1>Titulo</h1>   
+    
+    <p>Aqui posso colocar um texto</p>
+    <!--Negrito usa strong, italico o em-->
+    <p>Texto em negrito <strong>a partir daqui</strong> </p>
+
+    <!--Imagens e Links-->
+    <img src="tec.jpg" alt="Tecnologia"/>
+    <p>
+        <a href="www.facebook.com"> Facebook </a>
+    </p>
+
+    <!--Links em uma nova aba-->
+    <p>
+        <a href="www.facebook.com" target="_blank"> Facebook em Nova Aba</a>
+    </p>
+   
+    <!-- Listas Parei no minuto 44-->
+    <h2 id="meu-titulo">Lista de Tarefas:</h2>
+    <ul>
+        <li>Lavar o Carro</li>
+        <li>Estudar Python</li>
+    </ul>
+
+    <!--Lista Ordenada-->
+    <ol>
+        <li class="item">Fazer a Massa</li>
+        <li class="item">Assar</li>
+        <li class="item">Decorar</li>
+    </ol>
+
+    <!--Tabelas-->
+    <table>
+        <tr>
+            <th>Nome:</th>
+            <th>Sobrenome:</th>
+        </tr>
+
+        <tr>
+            <td>Marcio</td>
+            <td>Morando</td>
+        </tr>
+    </table>
+
+    <!--Formularios-->
+    <h2>Formulário</h2>
+    <!--action - Para onde vai esses dados do form  | method= POST GET ETC | placeholder=Dica do que preencher-->
+    <form action="" method="">
+        <input type="text" name="nome_completo" placeholder="Digite seu nome completo">
+        <br>
+        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        <br>
+
+
+        <select name="marca_carro" id="">
+            <option>BMW</option>
+            <option value="">Volks</option>
+        </select>
+        <br>
+        <input type="email" name="email">
+        <br>
+        <input type="number" name="salario">
+        <br>
+        <input type="password" name="senha">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!--Elementos de Bloco-->
+    <div>
+        <h3>Algum texto</h3>
+        <p>Algum Conteudo</p>
+    </div>
+
+    <header>
+        <h4>Minha Marca</h4>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header> 
+</body>
+
+<footer>
+    <p>Todos os direitos reservados</p>
+</footer>
+</html>

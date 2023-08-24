@@ -1,0 +1,22 @@
+body {
+    background-color: darkgray;
+}
+
+li {
+    color: blueviolet;
+}
+
+.item {
+    color: blue;
+}
+
+#meu-titulo {
+    color: green;
+    font-size: 50px;
+    background-color: black;
+    border: 2px solid red;
+    margin: 50px;
+    padding: 20px;
+}
+
+/*Parei no 01:25*/
